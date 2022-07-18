@@ -56,12 +56,12 @@
     width: 3.773vh;
     cursor: pointer;
     bottom: 47.55vh;
-    left: 4vh;
+    left: 3vh;
 }
 .line{
     position: absolute;
-    width: 28px;
-    height: 3px;
+    width: 1.75rem;
+    height:0.188rem;
     background-color:#ffff;
     border-radius: 3px;
     transition: transform .25s,opacity .35s;
