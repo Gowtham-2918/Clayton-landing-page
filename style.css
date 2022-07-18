@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+/* background image */
+ .img{
+    background-image: url('images/chettinaduhouse1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    
+    } 
+ 
+ /* claton chettinadu title */
+#heading{
+    
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vh;
+    font-size: 4.8vw;
+    color:#ffff;
+    font-family: 'Rufina',serif;
+    letter-spacing: 0.1em;
+    font-weight: 150;
+}
+  u {
+    border-bottom: 1px dashed #ffff;
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* menutake away and catering pages option */
+#pages{
+    text-align: center;
+    background-color:none;
+    font-size: 2.6vw;
+    font-family: 'Rufina',serif;
+    
+}
+  a{
+    color: #ffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+  }
+  /* For hamburger icon */
+#checkbox{
+    display: none;
+}
+.hamburger{
+    padding:1rem;
+    align-items: flex-start;
+    position: relative;
+    height: 3.773vh;
+    width: 3.773vh;
+    cursor: pointer;
+    bottom: 47.55vh;
+    left: 6vh;
+}
+.line{
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    background-color:#ffff;
+    border-radius: 3px;
+    transition: transform .25s,opacity .35s;
+
+}
+.line--top{
+    transform: translateY(-7px);
+}
+.line--bottom{
+    transform: translateY(7px);
+}
+#checkbox:checked~.line--top{
+    transform: rotate(45deg);
+}
+#checkbox:checked~.line--bottom{
+    transform: rotate(-45deg);
+}
+#checkbox:checked~.line--middle{
+    transform: translateX(16px);
+    opacity:0;
+}
+    /* social meadia icons */
+.insta{
+    color:white;
+    position: relative;
+    bottom: 49.3vh;
+    left:76%; 
+    font-size: 1.75rem;
+    
+}
+.insta:hover{
+    color: #f0618c;
+    }
+.twt{
+    color:white;
+    position: relative;
+    bottom: 49.3vh;
+    left: 78%;
+    font-size: 1.75rem;
+}
+.twt:hover{
+    color: #00acee;
+}
+.fb{
+    color:white;
+    position: relative;
+    bottom:49.3vh;
+    left: 80%;
+    font-size: 1.75rem;
+}
+.fb:hover{
+    color: #3b5998;
+}
+.yt{
+    color:white;
+    position: relative;
+    bottom:49.3vh;
+    left: 82%;
+    font-size: 1.75rem;
+}
+.yt:hover{
+    color: #ff0000;
+}
